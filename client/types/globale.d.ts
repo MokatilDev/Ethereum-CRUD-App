@@ -1,3 +1,4 @@
 interface Window {
-    ethereum: any
+    ethereum: any,
+    metamask: any
 }
