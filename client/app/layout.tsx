@@ -15,8 +15,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    // if you want use the light mode change className from dark to light
+    <html lang="en" className="dark"> 
+      <body className={inter.className}>{children}</body> 
     </html>
   );
 }
